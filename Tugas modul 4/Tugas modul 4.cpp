@@ -21,5 +21,15 @@ string isi_imam() {
 int main()
 {
 	menu:
+	void menu() {
+	clear_screen();
+	cout << "-------- Menu ----------\n";
+	cout << " 1. Daftar Imam        \n";
+	cout << " 2. List Imam       \n";
+	cout << " 3. Exit                \n";
+	cout << "----------------------\n";
+	cout << "Masukan Pilihan anda = ";
+	cin >> selected_menu;
+}
 	int pilihan;
 }
