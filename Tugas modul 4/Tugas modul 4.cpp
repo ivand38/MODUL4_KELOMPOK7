@@ -32,3 +32,31 @@ int main()
 	cout << "Masukan Pilihan anda = ";
 	cin >> selected_menu;
 }
+	
+	switch (selected_menu) 
+
+	{ 
+
+	case 1: 
+
+		isi_imam(); 
+
+		goto menu; 
+
+	case 2: 
+
+		list_imam(); 
+
+		goto menu; 
+
+	case 3: 
+
+		cout << "Terima kasih telah memakai program ini"; 
+
+		break; 
+
+	default: 
+
+		cout << "Anda salah memasukkan angka. Coba lagi"<<endl; 
+
+		goto menu; 
