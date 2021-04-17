@@ -3,6 +3,7 @@
 using namespace std;
 string hari[7] = { "Senin","Selasa","Rabu","Kamis","Jumat","Sabtu","Minggu" };
 string imam[7];
+int i;
 
 void list_imam() {
 		for (i=0; i < 7; i++) {
@@ -10,7 +11,6 @@ void list_imam() {
 }
 
 string isi_imam() {
-	int i;
 	cout << "Isi nama Imam pada hari yang tersedia: "<<endl;
 		for (i = 0; i < 7; i++) {
 			cout << "Hari " << hari[i] << " : " << imam[i] << endl;
@@ -21,8 +21,8 @@ string isi_imam() {
 
 int main()
 {
+	int selected_menu;
 	menu:
-	void menu() {
 	clear_screen();
 	cout << "-------- Menu ----------\n";
 	cout << " 1. Daftar Imam        \n";
@@ -31,6 +31,4 @@ int main()
 	cout << "----------------------\n";
 	cout << "Masukan Pilihan anda = ";
 	cin >> selected_menu;
-}
-	int pilihan;
 }
